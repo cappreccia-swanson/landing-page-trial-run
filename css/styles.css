@@ -33,6 +33,17 @@ h1 {
     }
 }
 
+@-ms-viewport {
+    width: device-width;
+}
+
+@media (max-width: 290) {
+    .navbar__menu li {
+        padding: .5px;
+        font-size: 3%;
+    } 
+}
+
 h2 {
     border-bottom: 1px solid #cc1;
     font-family: 'Oxygen', Sans-Serif;
@@ -75,7 +86,7 @@ section {
 }
 
 .navbar__menu .menu__link {
-    display: block;
+    display: inline;
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
@@ -194,8 +205,12 @@ section:nth-of-type(3n + 1) .landing__container::after {
 /* Section Active Styles */
 /* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
 section.your-active-class {
-    background: rgb(0, 0, 0);
+    background: rgb(7, 216, 231);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.active {
+    background-color: rgb(7, 216, 231) !important;
 }
 
 section.your-active-class .landing__container::before {
