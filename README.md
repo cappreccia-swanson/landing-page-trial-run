@@ -1,5 +1,14 @@
 # Landing Page Project
 
+*****************************************************
+
+## My Information
+This project was done in part by watching hours of YouTube videos to gain a better understanding, reading MDN Docs, asking for help in the Slack community (which further confused me), and then back to YouTube. I learned so much and have come quite far in my coding journey. This is my best attempt at exhibiting my proficiency thus far.
+
+This journey will continue on my GitHub ad I continue to strengthen my frontend web development skills.
+
+*************************************************************
+
 ## Table of Contents
 
 * [Instructions](#instructions)
